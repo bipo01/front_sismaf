@@ -54,10 +54,10 @@ function FiltroSection() {
 							setFormatoInp(e.target.value);
 							dispatch({ type: "dados/formato", payload: e.target.value });
 						}}>
-						<option value=".ods">ODS</option>
-						<option value=".xlsx">XLSX</option>
-						<option value=".xls">XLS</option>
-						<option value=".csv">CSV</option>
+						<option value="ods">ODS</option>
+						<option value="xlsx">XLSX</option>
+						<option value="xls">XLS</option>
+						<option value="csv">CSV</option>
 					</select>
 				</div>
 			</div>
